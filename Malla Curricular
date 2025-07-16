@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Malla Curricular - Psicología UWiener</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f6f6fa;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #4b3f72;
+    }
+    h2 {
+      background-color: #b8c6f1;
+      color: #4b3f72;
+      padding: 10px;
+      border-radius: 8px;
+    }
+    .semestre {
+      margin-bottom: 40px;
+    }
+    .cursos {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+    .curso {
+      background-color: #e4d4f4;
+      border: 2px solid #c9aee3;
+      border-radius: 10px;
+      padding: 15px;
+      width: 250px;
+      transition: transform 0.2s;
+      cursor: pointer;
+    }
+    .curso:hover {
+      transform: scale(1.05);
+    }
+    .detalle {
+      font-size: 0.9em;
+      color: #333;
+      margin-top: 8px;
+    }
+    .titulo-curso {
+      font-weight: bold;
+      color: #4b3f72;
+    }
+  </style>
+</head>
+<body>
+  <h1>Malla Curricular - Psicología (Universidad Wiener)</h1>
+
+  <!-- 1er Semestre -->
+  <div class="semestre">
+    <h2>1er Semestre</h2>
+    <div class="cursos">
+      <div class="curso"><div class="titulo-curso">Inglés I (AC44012)</div><div class="detalle">Créditos: 3<br>Prerrequisitos: —</div></div>
+      <div class="curso"><div class="titulo-curso">Fund. Biológicos del Comp. Humano (PS40112)</div><div class="detalle">Créditos: 5<br>Prerrequisitos: —</div></div>
+      <div class="curso"><div class="titulo-curso">Bases Estructurales y Funcionales (PS40122)</div><div class="detalle">Créditos: 5<br>Prerrequisitos: —</div></div>
+      <div class="curso"><div class="titulo-curso">Introd. a la Práctica de la Psicología (PS40113)</div><div class="detalle">Créditos: 5<br>Prerrequisitos: —</div></div>
+      <div class="curso"><div class="titulo-curso">Desarrollo Humano y Social (PS40111)</div><div class="detalle">Créditos: 4<br>Prerrequisitos: —</div></div>
+    </div>
+  </div>
+
+  <!-- 2do Semestre -->
+  <div class="semestre">
+    <h2>2do Semestre</h2>
+    <div class="cursos">
+      <div class="curso"><div class="titulo-curso">Estilo de Vida, Salud y Medio Ambiente (AC4021)</div><div class="detalle">Créditos: 4<br>Prerrequisitos: AC44012</div></div>
+      <div class="curso"><div class="titulo-curso">Inglés II (AC4022)</div><div class="detalle">Créditos: 3<br>Prerrequisitos: AC44012</div></div>
+      <div class="curso"><div class="titulo-curso">Desarrollo del Niño y del Adolescente (PS4021)</div><div class="detalle">Créditos: 5<br>Prerrequisitos: PS40111</div></div>
+      <div class="curso"><div class="titulo-curso">Teorías Psicológicas del Comportamiento Humano (PS4022)</div><div class="detalle">Créditos: 5<br>Prerrequisitos: PS40112</div></div>
+      <div class="curso"><div class="titulo-curso">Procesos Psicológicos I (PS4023)</div><div class="detalle">Créditos: 4<br>Prerrequisitos: PS40113</div></div>
+    </div>
+  </div>
+
+  <!-- 3er Semestre -->
+  <div class="semestre">
+    <h2>3er Semestre</h2>
+    <div class="cursos">
+      <div class="curso"><div class="titulo-curso">Comportamiento de la Sociedad y de los Grupos (PS4031)</div><div class="detalle">Créditos: 5<br>Prerrequisitos: —</div></div>
+      <div class="curso"><div class="titulo-curso">Desarrollo del Adulto y del Adulto Mayor (PS4032)</div><div class="detalle">Créditos: 4<br>Prerrequisitos: PS4021</div></div>
+      <div class="curso"><div class="titulo-curso">Sexualidad Humana (PS4033)</div><div class="detalle">Créditos: 3<br>Prerrequisitos: PS4022</div></div>
+      <div class="curso"><div class="titulo-curso">Procesos Psicológicos II (PS4034)</div><div class="detalle">Créditos: 3<br>Prerrequisitos: PS4023</div></div>
+      <div class="curso"><div class="titulo-curso">Evaluación Psicológica I (PS4035)</div><div class="detalle">Créditos: 5<br>Prerrequisitos: PS4022</div></div>
+    </div>
+  </div>
+
+<!-- 4to Semestre -->
+  <div class="semestre">
+    <h2>4to Semestre</h2>
+    <div class="cursos">
+      <div class="curso"><div class="titulo-curso">Psicología Educacional (PS4041)</div><div class="detalle">Créditos: 4<br>Prerrequisitos: PS4031</div></div>
+      <div class="curso"><div class="titulo-curso">Psicopatología del Adulto I (PS4042)</div><div class="detalle">Créditos: 4<br>Prerrequisitos: PS4032</div></div>
+      <div class="curso"><div class="titulo-curso">Psicología Organizacional (PS4043)</div><div class="detalle">Créditos: 4<br>Prerrequisitos: PS4031</div></div>
+      <div class="curso"><div class="titulo-curso">Evaluación Psicológica II (PS4044)</div><div class="detalle">Créditos: 4<br>Prerrequisitos: PS4035</div></div>
+    </div>
+  </div>
+
+  <!-- 5to Semestre -->
+  <div class="semestre">
+    <h2>5to Semestre</h2>
+    <div class="cursos">
+      <div class="curso"><div class="titulo-curso">Prevención y Promoción de la Salud (AC4051)</div><div class="detalle">Créditos: 5<br>Prerrequisitos: PS4041</div></div>
+      <div class="curso"><div class="titulo-curso">Psicopatología del Adulto II (PS4051)</div><div class="detalle">Créditos: 5<br>Prerrequisitos: PS4042</div></div>
+      <div class="curso"><div class="titulo-curso">Gestión del Talento Humano (PS4052)</div><div class="detalle">Créditos: 4<br>Prerrequisitos: —</div></div>
+      <div class="curso"><div class="titulo-curso">Intervenciones en Entornos Educativos (PS4053)</div><div class="detalle">Créditos: 4<br>Prerrequisitos: PS4043</div></div>
+      <div class="curso"><div class="titulo-curso">Evaluación Psicológica III (PS4054)</div><div class="detalle">Créditos: 4<br>Prerrequisitos: PS4044</div></div>
+    </div>
+  </div>
+
+  <!-- 6to Semestre -->
+  <div class="semestre">
+    <h2>6to Semestre</h2>
+    <div class="cursos">
+      <div class="curso"><div class="titulo-curso">Ciencia y Descubrimiento (AC4061)</div><div class="detalle">Créditos: 3<br>Prerrequisitos: —</div></div>
+      <div class="curso"><div class="titulo-curso">Procesos Psicológicos en Niños y Adolescentes (PS4061)</div><div class="detalle">Créditos: 5<br>Prerrequisitos: PS4051</div></div>
+      <div class="curso"><div class="titulo-curso">Consejería Psicológica (PS4062)</div><div class="detalle">Créditos: 4<br>Prerrequisitos: PS4054</div></div>
+      <div class="curso"><div class="titulo-curso">Orientación y Consejería Profesional y de Carrera (PS4063)</div><div class="detalle">Créditos: 3<br>Prerrequisitos: PS4054</div></div>
+    </div>
+  </div>
+
+  <!-- 7mo Semestre -->
+  <div class="semestre">
+    <h2>7mo Semestre</h2>
+    <div class="cursos">
+      <div class="curso"><div class="titulo-curso">Intervenciones en Salud (PS4071)</div><div class="detalle">Créditos: 4<br>Prerrequisitos: PS4053</div></div>
+      <div class="curso"><div class="titulo-curso">Evaluación y Rehabilitación Neuropsicológica (PS4072)</div><div class="detalle">Créditos: 5<br>Prerrequisitos: PS4042</div></div>
+      <div class="curso"><div class="titulo-curso">Intervenciones Psicoterapéuticas en Adultos (PS4073)</div><div class="detalle">Créditos: 4<br>Prerrequisitos: PS4051</div></div>
+      <div class="curso"><div class="titulo-curso">Intervenciones Grupales y Comunitarias (PS4074)</div><div class="detalle">Créditos: 3<br>Prerrequisitos: PS4053</div></div>
+      <div class="curso"><div class="titulo-curso">Electivo II</div><div class="detalle">Créditos: 3<br>Prerrequisitos: —</div></div>
+    </div>
+  </div>
+
+<!-- 8vo Semestre -->
+  <div class="semestre">
+    <h2>8vo Semestre</h2>
+    <div class="cursos">
+      <div class="curso"><div class="titulo-curso">Intervenciones Psicológicas en Entornos Legales (PS4083)</div><div class="detalle">Créditos: 3<br>Prerrequisitos: PS4071</div></div>
+      <div class="curso"><div class="titulo-curso">Intervenciones Psicoterapéuticas en Niños y Adolescentes (PS4084)</div><div class="detalle">Créditos: 4<br>Prerrequisitos: PS4073</div></div>
+      <div class="curso"><div class="titulo-curso">Tendencias Globales en Salud (AC4063)</div><div class="detalle">Créditos: 3<br>Prerrequisitos: —</div></div>
+      <div class="curso"><div class="titulo-curso">Proyectos de Intervención en Salud (AC4064)</div><div class="detalle">Créditos: 3<br>Prerrequisitos: —</div></div>
+      <div class="curso"><div class="titulo-curso">Electivo III</div><div class="detalle">Créditos: 3<br>Prerrequisitos: —</div></div>
+    </div>
+  </div>
+
+  <!-- 9no Semestre -->
+  <div class="semestre">
+    <h2>9no Semestre</h2>
+    <div class="cursos">
+      <div class="curso"><div class="titulo-curso">Prácticas Preprofesionales I (PS4091)</div><div class="detalle">Créditos: 13<br>Prerrequisitos: PS4083, PS4084</div></div>
+      <div class="curso"><div class="titulo-curso">Seminarios de Integración I (PS4092)</div><div class="detalle">Créditos: 3<br>Prerrequisitos: PS4083</div></div>
+      <div class="curso"><div class="titulo-curso">Seminario de Investigación I (PS4093)</div><div class="detalle">Créditos: 3<br>Prerrequisitos: AC4061</div></div>
+    </div>
+  </div>
+
+  <!-- 10mo Semestre -->
+  <div class="semestre">
+    <h2>10mo Semestre</h2>
+    <div class="cursos">
+      <div class="curso"><div class="titulo-curso">Prácticas Preprofesionales II (PS4101)</div><div class="detalle">Créditos: 13<br>Prerrequisitos: PS4091</div></div>
+      <div class="curso"><div class="titulo-curso">Seminarios de Integración II (PS4102)</div><div class="detalle">Créditos: 3<br>Prerrequisitos: PS4092</div></div>
+      <div class="curso"><div class="titulo-curso">Trabajo de Investigación (PS4103)</div><div class="detalle">Créditos: 3<br>Prerrequisitos: PS4093</div></div>
+    </div>
+  </div>
+
+</body>
+</html>
